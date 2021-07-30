@@ -1,0 +1,166 @@
+.myxblock_block {
+
+    th,  td,  p,  input,  h3,  details,  summary {
+        font:15px;
+    }
+
+    table,  th,  td {
+        border: solid 1px #ddd;
+        border-collapse: collapse;
+        padding: 2px 3px;
+        text-align: center;
+    }
+
+    th p {
+        font-weight:bold;
+    }
+
+    div h5 {
+        font-weight: bold;
+    }
+
+    details {   
+        padding: .75em .75em 0;
+        margin-top: 10px;
+        box-shadow:0 0 20px #d4d4d4;
+        border-radius: 12px;
+    }
+
+    summary {	
+        font-weight: bold;
+        margin: -.75em -.75em 0;
+        padding: .75em;
+        background-color: #4F5054;
+        color: #fff;
+        border-radius: 12px;
+    }
+
+    details[open] {
+        padding: .75em;
+        border-bottom: 1px solid #FAFAFB;
+        border-radius: 12px;
+    }
+
+    details[open] summary {
+        padding: .75em;
+        border-bottom: 1px solid #FAFAFB;
+        border-radius: 12px;
+    }
+
+    .icon {
+        width: 150px;
+        height: 150px;
+    }
+
+    div.lms-tip-01
+    {
+        background-color: #E3E2FF;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        line-height: 18px;
+        overflow: hidden;
+        padding: 5px 100px;
+        padding-right: 30px;
+        width: 700px;
+        position: relative;
+        margin: 0.5em;
+    }
+
+    div.lms-tip-01::before {
+        display: inline-block;
+        width: 90px;
+        height: -webkit-fill-available;
+        content: "";
+        background: url('https://dev.cms.intellcreative.ca/assets/tip-icon-01.png') no-repeat 0 0;
+        background-size: 65px 65px;
+        position: absolute;
+        left: 0em;
+        top: 0%;
+        background-color: #0275d8;
+        background-position: center;
+    }
+
+    div.lms-tip-02
+    {
+        background-color: #e2ffe2;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        line-height: 18px;
+        overflow: hidden;
+        padding: 5px 100px;
+        padding-right: 30px;
+        width: 700px;
+        position: relative;
+        margin: 0.5em;
+    }
+
+    div.lms-tip-02::before {
+        display: inline-block;
+        width: 90px;
+        height: -webkit-fill-available;
+        content: "";
+        background: url('https://dev.cms.intellcreative.ca/assets/tip-icon-01.png') no-repeat 0 0;
+        background-size: 65px 65px;
+        position: absolute;
+        left: 0em;
+        top: 0%;
+        background-color: #5cb85c;
+        background-position: center;
+    }
+
+    div.lms-tip-03
+    {
+        background-color: #fff2e2;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        line-height: 18px;
+        overflow: hidden;
+        padding: 5px 100px;
+        padding-right: 30px;
+        width: 700px;
+        position: relative;
+        margin: 0.5em;
+    }
+
+    div.lms-tip-03::before {
+        display: inline-block;
+        width: 90px;
+        height: -webkit-fill-available;
+        content: "";
+        background: url('https://dev.cms.intellcreative.ca/assets/tip-icon-01.png') no-repeat 0 0;
+        background-size: 65px 65px;
+        position: absolute;
+        left: 0em;
+        top: 0%;
+        background-color: #f0ad4e;
+        background-position: center;
+    }
+
+    div.lms-tip-04
+    {
+        background-color: #ffe4e2;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        line-height: 18px;
+        overflow: hidden;
+        padding: 5px 100px;
+        padding-right: 30px;
+        width: 700px;
+        position: relative;
+        margin: 0.5em;
+    }
+
+    div.lms-tip-04::before {
+        display: inline-block;
+        width: 90px;
+        height: -webkit-fill-available;
+        content: "";
+        background: url('https://dev.cms.intellcreative.ca/assets/tip-icon-01.png') no-repeat 0 0;
+        background-size: 65px 65px;
+        position: absolute;
+        left: 0em;
+        top: 0%;
+        background-color: #d9534f;
+        background-position: center;
+    }
+}
